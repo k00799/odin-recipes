@@ -1,0 +1,64 @@
+/* styles for odin's recipes */
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body, .title-card {
+    background-color: rgba(245, 253, 255, 0.283);
+}
+
+.title, .recipe-title {
+    color: rgba(110, 149, 174, 0.668);
+}
+
+div.recipe, .recipe-title-card {
+    border-radius: 20px;
+}
+
+.title-card {
+    padding: 20px 30px;
+}
+
+.all-recipes {
+    padding: 30px;
+}
+
+div.recipe {
+    background-color: #c2dbec2f;
+    padding: 10px;
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 15px;
+    border-style: double;
+    border-color: rgba(89, 127, 150, 0.044);
+}
+
+.recipe-index-image {
+    max-width: 260px;
+    height: 200px;
+    margin: 50px auto 100px auto;
+}
+
+.recipe-title {
+    margin: 20px;
+}
+
+.recipe-title-card {
+    background-color: #a6d2e91e;
+    padding: 2px;
+    margin: 5px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
